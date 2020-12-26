@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 '''
-@Author: Matheus Barros
+@Author: Matheus Barros da Cruz
 Date: 19/12/2020
 
 '''
