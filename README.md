@@ -1,3 +1,3 @@
 # Python_ETL_Codes
 
-Some codes in python, to Extract Transform a Load data.
+Some codes in python, to Extract Transform and Load data.
