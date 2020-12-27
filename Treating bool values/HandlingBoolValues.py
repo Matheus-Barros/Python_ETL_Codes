@@ -1,7 +1,7 @@
 import pandas as pd 
 
 '''
-@Author: Matheus Barros 
+@Author: Matheus Barros
 Date: 26/12/2020
 
 '''
