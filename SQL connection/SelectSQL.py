@@ -13,7 +13,7 @@ connection = mysql.connector.connect(host = 'localhost',
 									db = 'escola_curso')
 
 #========== SELECTING DATABASE ==========  
-database = pd.read_sql_query('SELECT * FROM alunos',connection)
+database = pd.read_sql_query('SELECT * FROM alunos;',connection)
 
 print(database)
 
