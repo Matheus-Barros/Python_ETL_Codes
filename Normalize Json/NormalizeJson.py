@@ -37,10 +37,6 @@ try:
 
 	print(bookstores.head(5))
 
-	#========== Flatten business data into a data frame, replace separator ==========
-	cafes = json_normalize(data["businesses"],
-                   			    sep="_")
-
 	#========== Load other business attributes and set meta prefix ==========
 	flat_cafes = json_normalize(data["businesses"],
 	                            sep="_",
