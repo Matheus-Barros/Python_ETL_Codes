@@ -3,7 +3,7 @@ import requests
 import json
 
 '''
-@Author: Matheus Barrosssss
+@Author: Matheus Barros
 Date: 28/12/2020
 
 '''
