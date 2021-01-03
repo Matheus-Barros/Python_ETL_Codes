@@ -1,5 +1,6 @@
 from itertools import combinations
 
+
 '''
 @Author: Matheus Barros
 Date: 29/12/2020
