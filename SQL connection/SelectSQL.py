@@ -9,11 +9,13 @@ Date: 25/12/2020
 #========== GENERATING CONNECTION ==========  
 connection = mysql.connector.connect(host = 'localhost',
 									user = 'root',
-									passwd = 'teteu123',
-									db = 'escola_curso')
+									passwd = '',
+									db = 'mysql')
 
 #========== SELECTING DATABASE ==========  
-data = pd.read_sql_query('SELECT * FROM alunos;',connection)
+data = pd.read_sql_query('SELECT * FROM db;',connection)
 
 print(data)
+
+
 
