@@ -10,10 +10,10 @@ Date: 25/12/2020
 connection = mysql.connector.connect(host = 'localhost',
 									user = 'root',
 									passwd = '',
-									db = 'mysql')
+									db = 'db_tests')
 
 #========== SELECTING DATABASE ==========  
-data = pd.read_sql_query('SELECT * FROM db;',connection)
+data = pd.read_sql_query('SELECT * FROM data;',connection)
 
 print(data)
 
